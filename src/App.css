@@ -1,1 +1,56 @@
 /* Escreva seu css aqui */
+/* :3 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    background-color: #EDF2F4;
+}
+
+.game {
+    width: auto;
+    height: auto;
+    margin: 10% 10%;
+    text-align: center;
+}
+
+.game-board, .game-info {
+    width: 100%;
+}
+
+.board-row {
+    /*
+        Linhas do tabuleiro
+    */
+    margin: 10px;
+}
+
+.square{
+    /*
+        "Botões"
+    */
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    font-size:100px;
+    background-color: #8D99AE;
+    margin: 5px;
+    transition: all 350ms;
+}
+
+.square:hover, .square:active{
+    border: solid 10px #EF233C;
+}
+
+.game-board {
+    
+}
+
+.game-info {
+    /*
+        Status
+    */
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 10em;
+}
+
